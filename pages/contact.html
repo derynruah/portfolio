@@ -4,5 +4,29 @@
     <title>Contact</title>
 </head>
 <body>
+    <h1>Contact me!</h1>
+<form>
+    <fieldset>
+        <legend>Personal details</legend>
+        <label for="username">Your name</label>
+        <input id="username" type="text">
+        <br>
+        <label for="emailaddress">Your email</label>
+        <input id="emailaddress" type="text">
+    </fieldset>
+    <fieldset>
+        <legend>What do you want to contact me about?</legend>
+        <input type="checkbox" name="contact" value="coding"> Coding
+        <input type="checkbox" name="contact" value="chitchat"> Chit chitchat
+        <input type="checkbox" name="contact" value="games"> Gaming
+        <input type="checkbox" name="contact" value="travel"> Travelling 
+        <input type="checkbox" name="contact" value="cooking"> Cooking
+    </fieldset>
+    <fieldset>
+        <legend>What's your message?</legend>
+        <textarea id="notes"></textarea>
+    </fieldset>
+    <button type="submit">Send message</button>
+</form>   
 </body>
 </html>
