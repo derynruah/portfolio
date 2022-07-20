@@ -1,11 +1,40 @@
 h1 {
-    color: mediumpurple;
+    color: aliceblue;
 }
 
 .highlight {
-    background-color:darkslategray
+    background-color:rgb(166, 132, 247);
 }
 
 #box {
     font-size: 20px;
+}
+
+.topnav {
+  background-color:cadetblue;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:rgb(166, 132, 247);
+  color: aliceblue;
+}
+
+.topnav a.active {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.topnav .icon {
+  display: none;
 }

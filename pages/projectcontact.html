@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav"> 
+        <a href="../pages/projectcontact.html"target="_blank" class="active">Contact</a>
+        <a href="../pages/projects.html"target="_blank">Projects</a>
+        <a href="https://github.com/derynruah/portfolio"target="_blank">Github</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+           </a>
+       </div>
+    <h1 style="color:aliceblue; background-color:rgb(166, 132, 247);">Contact me!</h1>
+<form>
+    <fieldset>
+        <legend style="color:aliceblue; background-color:rgb(166, 132, 247);">Personal details</legend>
+        <label for="username">Your name</label>
+        <input id="username" type="text">
+        <br>
+        <label for="emailaddress">Your email</label>
+        <input id="emailaddress" type="email">
+    </fieldset>
+    <fieldset>
+        <legend style="color:aliceblue; background-color:rgb(166, 132, 247);">What do you want to contact me about?</legend>
+        <input type="checkbox" name="contact" value="Project1"> Project 1
+        <input type="checkbox" name="contact" value="Project2"> Project 2
+        <input type="checkbox" name="contact" value="Project3"> Project 3
+        <input type="checkbox" name="contact" value="Project4"> Project 4
+    </fieldset>
+    <fieldset>
+        <legend style="color:aliceblue; background-color:rgb(166, 132, 247);">What's your message?</legend>
+        <textarea id="notes"></textarea>
+    </fieldset>
+    <button type="submit">Send message</button>
+</form>   
+</body>
+</html>
