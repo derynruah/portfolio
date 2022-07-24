@@ -1,40 +1,47 @@
-h1 {
-    color: aliceblue;
+.logo-image img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
-.highlight {
-    background-color:rgb(166, 132, 247);
-}
-
-#box {
-    font-size: 22px;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topnav {
-  background-color:cadetblue;
   overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+display: none;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color:aliceblue;
-  text-align: center;
+  color: #03989E;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #EBBEF8;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
-  background-color:rgb(166, 132, 247);
-  color: aliceblue;
+  background-color: white;
+  color: #545454;
 }
 
-.topnav a.active {
-  background-color: cadetblue;
-  color: aliceblue;
-}
-
-.topnav .icon {
-  display: none;
+.active {
+  background-color: white;
+  color: #;
 }

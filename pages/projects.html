@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, intital-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Projects</title>
+    <title>Deryn Rushworth | Full-stack Developer in training</title>
+    <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
 </head>
 <body>
-<div class="topnav" id="myTopnav">
- <a href="../pages/projects.html" class="active">Home</a> 
-        <a href="../pages/projectcontact.html"target="_blank">Contact</a>
-        <a href="https://github.com/derynruah/portfolio"target="_blank">Github</a>
+<div class="topnav">
+    <a >
+        <div class="logo-image">
+            <img src="../images/logo.png" class="img-fluid">
+        </div>
+    </a>
+    <div id="myLinks">
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact me</a>
+    </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i>
+        <i class="fa fa-bars"></i>
     </a>
 </div>
-    <h1 class="highlight">Projects completed with Manchester Codes</h1>
-<hr />
-   <h2>Projects</h2>
-    <table>
-     <thead>
-         <tr>
-             <th>Name</th>
-             <th>Image</th>
-             <th>Description</th>
-         </tr>
-     </thead>
-     <tbody>
-        <tr>
-            <td colspan="3">Coming soon!</td>
-        </tr>
-     </tbody>
-    </table>
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+    var x=document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+</script>
 </body>
 </html>
