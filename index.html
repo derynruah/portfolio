@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deryn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../portfolio/pages/styles.css">
+    <title>Deryn Rushworth | Full-stack Developer in training</title>
+    <link rel="shortcut icon" href="../portfolio/logo.ico" type="image/x-icon">
 </head>
 <body>
-    <nav>
-        <a href="../portfolio/pages/contact.html"target="_blank">Contact</a>
-        <a href="../portfolio/pages/projects.html"target="_blank">Projects</a>
-    </nav>
-<h1>Deryn Rushworth</h1>
-<h2>June 2022 cohort @ Manchester Codes</h2>
-<img src="../portfolio/images/me.png" alt="Deryn Rushworth photo"
-height="150"
-width="300">
-<br />
-<hr />
-<h3>About Me</h3>
-<p>Hello world! I'm Deryn and I am currently learning to code with Manchester codes. I am from Bolton and if I had a pound for everytime someone asked me if I know Peter Kay I'd have about £10, with inflation.</p>
-<p>I have been looking at getting into coding for a while and decided now was the right time to set me up for a career change.</p>
-<hr />
-<h3>Qualities</h3>
-<ol> 
-    <li>Attentive</li>
-    <li>Intuiative</li>
-    <li>Creative</li>
-</ol>
-<hr />
-<h3>Hobbies & Interests</h3>
-<ul>
-    <li>Gaming</li>
-    <li>Travelling</li>
-    <li>Cooking/Baking</li>   
-</ul>
-<figure>
-    <img src="images/myfirstgameofMTG.jpg" alt="Photograph of my first Magic the Gathering game."
-    width="150"
-    height="150">
-    <br />
-    <figcaption>
-        My first game of magic the gathering.
-    </figcaption>
-</figure>    
-<figure>
-    <img src="images/snorkellinginthegreatbarrierreef.png" alt="Photograph of me snorkeling in the Great Barrier Reef."
-    width="150"
-    height="150">
-    <br />
-    <figcaption>
-        Snorkeling in the Great Barrier Reef.
-    </figcaption>
-</figure>    
-<figure>
-    <img src="images/galaxycaramelcookies.jpg" alt="Photograph of some cookies I made."
-    width="150"
-    height="150">
-    <br />
-    <figcaption>
-        Galaxy caramel cookies I made.
-    </figcaption>
-</figure>
-<footer>2022 - created by derynruah</footer>
+<div class="topnav">
+    <a >
+        <div class="logo-image">
+            <img src="../portfolio/logo.png" class="img-fluid">
+        </div>
+    </a>
+    <div id="myLinks">
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact me</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<img src="../portfolio/images/avatar.jpg" alt="avatar">
+<div class="header">
+    <h1>Full-stack developer in training</h1>
+</div>
+    <h2 class="intro">Hello, I'm Deryn and I'm learning to code with Manchester Codes</h2>
+<section class="sections">
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="title">Project one</h3>
+                        <p>Coming soon!</p>
+                    </div>
+                    <div class="column">
+                        <h3 class="title">Project two</h3>
+                        <p>Coming soon!</p>
+                    </div>
+                    <div class="column">
+                        <h3 class="title">Project three</h3>
+                        <p>Coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+</div>
+
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+    var x=document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+</script>
 </body>
 </html>
